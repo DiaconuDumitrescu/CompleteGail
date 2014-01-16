@@ -132,6 +132,7 @@ namespace NCI.DCEG.BCRA.Engine
                     rval = 99;
                     break;
                 case "NO BIRTHS":
+                case "FIRST CHILDBIRTH AGE":
                     rval = 0;
                     break;
                 case "< 20":

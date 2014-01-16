@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Text;
 using System.Xml;
 
@@ -390,7 +390,7 @@ namespace NCI.DCEG.BCRA.Engine
             // African American women  logistic regression coefficients - CARE model
 
             bet2[0, 1] = -0.3457169653;     // intercept                      11/13/07
-            bet2[1, 1] = 0.0334703319;     // age >= 50 indicator set � to 0 in PGM
+            bet2[1, 1] = 0.0334703319;     // age >= 50 indicator set á to 0 in PGM
 
             bet2[2, 1] = 0.2672530336;     // age menarchy
             bet2[3, 1] = 0.1822121131;     // # of breast biopsy

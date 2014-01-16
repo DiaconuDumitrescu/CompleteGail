@@ -85,7 +85,7 @@ namespace Gail
 
         private void checkBox1_Unchecked(object sender, RoutedEventArgs e)
         {
-            pacientChildbirth = "NA";
+            pacientChildbirth = "NO BIRTHS";
             textBox3.IsEnabled = false;
             slider3.IsEnabled = false;      
         }
@@ -95,6 +95,8 @@ namespace Gail
             pacientRace = textBlock1.Text;
             pacientProjectionYears = textBox1.Text;
             pacientMenarch = textBox2.Text;
+            pacientChildbirth = textBox3.Text;
+
             
             NavigationService.Navigate(new Uri("/Page4.xaml", UriKind.Relative));            
         }
